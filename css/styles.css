@@ -8242,7 +8242,7 @@ textarea.form-control-lg {
 
 .text-black-50 {
   --bs-text-opacity: 1;
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: rgba(0, 0, 0, 0.75) !important;
 }
 
 .text-white-50 {
@@ -10986,7 +10986,7 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
+  color: #000;
   border: 1px solid #64a19d;
 }
 #mainNav .navbar-toggler:focus {
@@ -10998,7 +10998,7 @@ body {
   padding: 0.9rem 0;
 }
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(#fff, 80%);
+  color: fade(#fff, 90%);
   outline: none;
   background-color: transparent;
 }
@@ -11016,15 +11016,15 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: #000;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: #000;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: #7d7f7c;
   }
   #mainNav .nav-link:active {
     color: #fff;
